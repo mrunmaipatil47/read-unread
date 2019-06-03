@@ -1,0 +1,24 @@
+.Card {
+    background-color: white;
+    border-radius: 6px;
+    height: max-content;
+    width: 80vw;
+    margin: 4rem auto;
+}
+
+.Card-Title {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: -0.01px;
+    color: #323030;
+    padding: 0.8rem;
+    margin: 0;
+    width: inherit;
+    text-align: left;
+    height: fit-content;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #0000003C;
+}

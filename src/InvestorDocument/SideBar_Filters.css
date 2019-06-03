@@ -1,0 +1,104 @@
+.Filter-title {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 0.75rem;
+    letter-spacing: 0.23px;
+    text-transform: uppercase;
+    color: #383B41;
+    padding: 0.3rem;
+}
+
+.Filter-icon {
+    margin: auto;
+    margin-right: 0;
+}
+
+.Checkbox-title {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    /* line-height: 1.1rem; */
+    letter-spacing: 0.233333px;
+    color: #2D2F30;
+    margin: auto ;
+    margin: 0.4rem;
+}
+
+.Checkbox-container {
+  
+    position: relative;
+    margin: auto ;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Checkbox-container input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    height: 0.8rem;
+    width: 0.8rem;
+    margin:  0.5rem;
+    padding: 1px;
+    z-index: 2;
+}
+
+.Checkbox-checkmark {
+    top: 0;
+    left: 0;
+    height: 0.8rem;
+    width: 0.8rem;
+    margin: 0.5rem;
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.Checkbox-container .Checkbox-checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* On mouse-over, add a grey background color */
+.Checkbox-container:hover input~.Checkbox-checkmark {
+   
+}
+
+/* When the checkbox is checked, add a blue background */
+.Checkbox-container input:checked~.Checkbox-checkmark {
+    background: url('../assets/icons/tick.svg');
+    overflow: visible;
+    z-index: 1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.Checkbox-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.Checkbox-container input:checked~.Checkbox-checkmark:after {
+    display: none;
+}
+
+/* Style the checkmark/indicator */
+.Checkbox-container .Checkbox-checkmark:after {
+    background: url('../assets/icons/tick.svg')
+}

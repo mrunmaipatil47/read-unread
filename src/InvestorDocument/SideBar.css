@@ -1,0 +1,57 @@
+.SideBar {
+    width: 20%;
+    min-width: 230px;
+    height: inherit;
+    padding: 1rem;
+    border-right: solid;
+    border-right-width: 1px;
+    border-color: #C1C7D0;
+    -webkit-box-shadow: 0 0px 6px -6px black;
+    -moz-box-shadow: 0 0px 6px -6px black;
+    box-shadow: 2px 0px 6px -6px black;
+
+}
+
+.Search-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #C1C7D0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+
+.Search-wrapper span {
+    width: 20%;
+    justify-self: center;
+    align-self: center;
+}
+
+.SearchBar {
+    width: 80%;
+    padding: 0.3rem;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8rem;
+    /* line-height: 1rem; */
+    color: rgb(29, 10, 10);
+    border: none;
+    word-wrap: break-word;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.Search-icon {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #C1C7D0;
+}
