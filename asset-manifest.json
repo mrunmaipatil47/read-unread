@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/read-unread/static/css/main.1d644313.chunk.css",
+    "main.js": "/read-unread/static/js/main.898024f3.chunk.js",
+    "main.js.map": "/read-unread/static/js/main.898024f3.chunk.js.map",
+    "runtime~main.js": "/read-unread/static/js/runtime~main.221544e6.js",
+    "runtime~main.js.map": "/read-unread/static/js/runtime~main.221544e6.js.map",
+    "static/js/2.9894d4ea.chunk.js": "/read-unread/static/js/2.9894d4ea.chunk.js",
+    "static/js/2.9894d4ea.chunk.js.map": "/read-unread/static/js/2.9894d4ea.chunk.js.map",
+    "index.html": "/read-unread/index.html",
+    "precache-manifest.86ddf2dd1dbff4970a80a8b278c2c7e6.js": "/read-unread/precache-manifest.86ddf2dd1dbff4970a80a8b278c2c7e6.js",
+    "service-worker.js": "/read-unread/service-worker.js",
+    "static/css/main.1d644313.chunk.css.map": "/read-unread/static/css/main.1d644313.chunk.css.map",
+    "static/media/back.svg": "/read-unread/static/media/back.a2d23083.svg",
+    "static/media/SideBar_Filters.css": "/read-unread/static/media/blue-tick.331e5151.svg",
+    "static/media/dateFilter.svg": "/read-unread/static/media/dateFilter.a3fade4a.svg",
+    "static/media/filterIcon.svg": "/read-unread/static/media/filterIcon.401209c6.svg",
+    "static/media/logo.svg": "/read-unread/static/media/logo.f4d6ac62.svg",
+    "static/media/read.svg": "/read-unread/static/media/read.57eaf24c.svg",
+    "static/media/sortArrows.svg": "/read-unread/static/media/sortArrows.04b66b95.svg",
+    "static/media/DocumentList.css": "/read-unread/static/media/tick.bd31d756.svg",
+    "static/media/unread.svg": "/read-unread/static/media/unread.a03f31c8.svg"
+  }
+}
