@@ -7,22 +7,22 @@
     border-radius: 3px;
     border-color: #194069;
     color: #ffffff;
-    font-family: Avenir;
+    font-family: Avenir, Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.7rem;
-    width: 6rem;
-    margin: auto 0.3rem;
+    font-size: 0.8rem;
+    width: 7rem;
+    margin: 0.3rem 0.3rem;
 }
 
 .DocumentList button:hover {
     background: #0f263f;
     border-radius: 3px;
     color: #ffffff;
-    font-family: Avenir;
+    font-family: Avenir, Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .DocumentList button:disabled {
@@ -36,33 +36,50 @@
 }
 
 .Filters-selected {
-    font-family: Avenir;
+    font-family: Avenir, Lato;
     font-style: normal;
     font-weight: 500;
     font-size: 0.8rem;
     color: #A2A2A2;
 }
+
 .DocumentList {
     width: 70%;
     margin: auto;
     margin-top: 0;
 }
+
 .DocumentList-Table table {
-font-family: Avenir;
-font-style: normal;
-font-weight: 400;
-font-size: 0.85rem;
-color: #383B41;
-width: 100%;
-word-wrap: break-word;
-border-spacing: 0;
-text-align: left;
+    font-family: Avenir, Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #383B41;
+    width: 100%;
+    word-wrap: break-word;
+    border-spacing: 0;
+    text-align: left;
 }
 
-.DocumentList-Table td{
+.DocumentList-Table td {
     padding: 0.34rem;
 }
 
 .DocumentList-Table tr:nth-child(even) {
     background: #F9F8F5;
+}
+
+.DocumentList-Table tr:hover {
+    background: rgba(201, 200, 197, 0.9);
+    cursor: pointer;
+}
+
+.DocumentList-Table .Checkbox-container input:checked~.Checkbox-checkmark {
+
+    background-color: #194069;
+    background-image: url('../assets/icons/tick.svg');
+    /* background-blend-mode: difference; */
+    /* background-clip: content-box; */
+    overflow: visible;
+    z-index: 1;
 }

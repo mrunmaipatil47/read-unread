@@ -14,7 +14,8 @@ export function SideBar() {
                 <span><FontAwesomeIcon className='Search-icon' icon={ faSearch } /></span>
             </div>
             <hr />
-            { FILTERS.map(item => <SideBarFilters title={ item.title } params={item.params } />)}
+            <SideBarFilters key={0} title={'Date'} />
+            { FILTERS.map((item, i) => <SideBarFilters key={i+1} title={ item.title } params={item.params } />)}
         </div>
     );
 }

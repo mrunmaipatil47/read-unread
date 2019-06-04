@@ -3,17 +3,23 @@
     border-radius: 6px;
     height: max-content;
     width: 80vw;
-    margin: 4rem auto;
+    margin: 5rem auto;
+}
+
+.back{
+    position: absolute;
+    left:10vw;
+    top:7rem;
 }
 
 .Card-Title {
-    font-family: Avenir;
+    font-family: Avenir, Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
     letter-spacing: -0.01px;
     color: #323030;
-    padding: 0.8rem;
+    padding: 1rem;
     margin: 0;
     width: inherit;
     text-align: left;

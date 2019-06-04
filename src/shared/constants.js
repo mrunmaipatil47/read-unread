@@ -77,82 +77,160 @@ export const FILTERS = [{
 ];
 
 export const RECORDS = [{
-    read: true,
-    date: '12/31/2018',
-    account: 'Smithton University',
-    name: 'Q4 Capital Statement',
-    funds: 'All Funds',
-    type: 'Performance Reporting'
-}, {
-    read: true,
-    date: '12/31/2018',
-    account: 'Smithton University',
-    name: 'Q4 Capital Statement',
-    funds: 'All Funds',
-    type: 'Performance Reporting'
-}, {
-    read: true,
-    date: '12/31/2018',
-    account: 'Smithton University',
-    name: 'Q4 Capital Statement',
-    funds: 'All Funds',
-    type: 'Investor Letter'
-}, {
-    read: true,
-    date: '12/31/2018',
-    account: 'Smithton University',
-    name: 'Q4 Capital Statement',
-    funds: 'All Funds',
-    type: 'Investor Letter'
-}, {
-    read: true,
-    date: '12/31/2018',
-    account: 'Smithton University',
-    name: 'Q4 Capital Statement',
-    funds: 'All Funds',
-    type: 'Investor Letter'
-},
-{
     read: false,
     date: '12/31/2018',
     account: 'Smithton University',
     name: 'Q4 Capital Statement',
     funds: 'All Funds',
-    type: 'Transaction Confirmation'
+    type: 'Performance Reporting'
+}, {
+    read: false,
+    date: '12/20/2018',
+    account: 'Smithton Law School',
+    name: 'Q4 Capital Statement',
+    funds: 'MEP',
+    type: 'Performance Reporting'
+}, {
+    read: false,
+    date: '12/17/2018',
+    account: 'Smithton Law School',
+    name: 'Dec. 2018 Performance Estimate',
+    funds: 'MPEF I',
+    type: 'Performance Reporting'
+}, {
+    read: false,
+    date: '11/30/2018',
+    account: 'Smithton University',
+    name: 'Nov. 2018 Performance Estimate',
+    funds: 'MPPEF',
+    type: 'Performance Reporting'
 }, {
     read: true,
+    date: '11/10/2018',
+    account: 'Smithton Law School',
+    name: 'Q4 2018 Capital Statement',
+    funds: 'MEP',
+    type: 'Performance Reporting'
+},
+{
+    read: false,
+    date: '11/1/2018',
+    account: 'Smithton Law School',
+    name: 'Q4 2018 Capital Statement',
+    funds: 'MPEF I',
+    type: 'Investor Letter'
+}, {
+    read: false,
+    date: '11/1/2018',
+    account: 'Smithton University',
+    name: 'Q3 2018 Investor Letter',
+    funds: 'MPPEF',
+    type: 'Performance Reporting'
+}, {
+    read: true,
+    date: '7/31/2018',
+    account: 'Smithton Law School',
+    name: 'Q2 2018 Capital Statement',
+    funds: 'All Funds',
+    type: 'Performance Reporting'
+}, {
+    read: false,
+    date: '6/30/2018',
+    account: 'Smithton Law School',
+    name: 'Q4 Capital Statement',
+    funds: 'All Funds',
+    type: 'Performance Reporting'
+}, {
+    read: true,
+    date: '5/31/2018',
+    account: 'Smithton University',
+    name: 'Q4 Capital Statement',
+    funds: 'All Funds',
+    type: 'Performance Reporting'
+}, {
+    read: false,
+    date: '5/17/2018',
+    account: 'Smithton Law School',
+    name: 'Q4 Capital Statement',
+    funds: 'All Funds',
+    type: 'Performance Reporting'
+},
+{
+    read: false,
+    date: '4/30/2018',
+    account: 'Smithton University',
+    name: 'Q4 Capital Statement',
+    funds: 'All Funds',
+    type: 'Performance Reporting'
+}, {
+    read: false,
+    date: '4/2/2018',
+    account: 'Smithton Law School',
+    name: 'Q4 Capital Statement',
+    funds: 'All Funds',
+    type: 'Performance Reporting'
+}, {
+    read: false,
+    date: '2/28/2018',
+    account: 'Smithton University',
+    name: 'Q4 Capital Statement',
+    funds: 'All Funds',
+    type: 'Performance Reporting'
+}, {
+    read: false,
+    date: '1/31/2018',
+    account: 'Smithton University',
+    name: 'Q4 Capital Statement',
+    funds: 'All Funds',
+    type: 'Performance Reporting'
+},{
+    read: false,
     date: '12/31/2018',
     account: 'Smithton University',
     name: 'Q4 Capital Statement',
     funds: 'All Funds',
     type: 'Performance Reporting'
 }, {
-    read: true,
-    date: '12/31/2018',
-    account: 'Smithton University',
+    read: false,
+    date: '12/20/2018',
+    account: 'Smithton Law School',
     name: 'Q4 Capital Statement',
-    funds: 'All Funds',
+    funds: 'MEP',
     type: 'Performance Reporting'
 }, {
-    read: true,
-    date: '12/31/2018',
-    account: 'Smithton University',
-    name: 'Q4 Capital Statement',
-    funds: 'All Funds',
+    read: false,
+    date: '12/17/2018',
+    account: 'Smithton Law School',
+    name: 'Dec. 2018 Performance Estimate',
+    funds: 'MPEF I',
     type: 'Performance Reporting'
 }, {
-    read: true,
-    date: '12/31/2018',
+    read: false,
+    date: '11/30/2018',
     account: 'Smithton University',
-    name: 'Q4 Capital Statement',
-    funds: 'All Funds',
+    name: 'Nov. 2018 Performance Estimate',
+    funds: 'MPPEF',
     type: 'Performance Reporting'
 }, {
-    read: true,
-    date: '12/31/2018',
-    account: 'Smithton University',
+    read: false,
+    date: '12/20/2018',
+    account: 'Smithton Law School',
     name: 'Q4 Capital Statement',
-    funds: 'All Funds',
+    funds: 'MEP',
+    type: 'Performance Reporting'
+}, {
+    read: false,
+    date: '12/17/2018',
+    account: 'Smithton Law School',
+    name: 'Dec. 2018 Performance Estimate',
+    funds: 'MPEF I',
+    type: 'Performance Reporting'
+}, {
+    read: false,
+    date: '11/30/2018',
+    account: 'Smithton University',
+    name: 'Nov. 2018 Performance Estimate',
+    funds: 'MPPEF',
     type: 'Performance Reporting'
 }
 ]

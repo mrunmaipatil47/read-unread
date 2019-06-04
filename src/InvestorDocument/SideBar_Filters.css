@@ -1,5 +1,5 @@
 .Filter-title {
-    font-family: Avenir;
+    font-family: Avenir, Lato;
     font-style: normal;
     font-weight: 800;
     font-size: 0.75rem;
@@ -14,22 +14,29 @@
     margin-right: 0;
 }
 
+.Filter img{
+    width: 90%;
+}
+
 .Checkbox-title {
-    font-family: Avenir;
+    font-family: Avenir, Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 0.8rem;
-    /* line-height: 1.1rem; */
+    word-wrap: break-word;
     letter-spacing: 0.233333px;
     color: #2D2F30;
-    margin: auto ;
+    /* margin: auto; */
     margin: 0.4rem;
+    min-width: min-content;
+    max-width: max-content;
+    text-align: left;
 }
 
 .Checkbox-container {
-  
+
     position: relative;
-    margin: auto ;
+    margin: auto;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -45,7 +52,7 @@
     cursor: pointer;
     height: 0.8rem;
     width: 0.8rem;
-    margin:  0.5rem;
+    margin: 0.5rem;
     padding: 1px;
     z-index: 2;
 }
@@ -75,13 +82,13 @@
 }
 
 /* On mouse-over, add a grey background color */
-.Checkbox-container:hover input~.Checkbox-checkmark {
-   
-}
+.Checkbox-container:hover input~.Checkbox-checkmark {}
 
 /* When the checkbox is checked, add a blue background */
-.Checkbox-container input:checked~.Checkbox-checkmark {
-    background: url('../assets/icons/tick.svg');
+.Filter .Checkbox-container input:checked~.Checkbox-checkmark {
+    background-image: url('../assets/icons/blue-tick.svg');
+    /* background-blend-mode: difference; */
+    background-clip: content-box;
     overflow: visible;
     z-index: 1;
 }
@@ -100,5 +107,5 @@
 
 /* Style the checkmark/indicator */
 .Checkbox-container .Checkbox-checkmark:after {
-    background: url('../assets/icons/tick.svg')
+    background: url('../assets/icons/blue-tick.svg')
 }
